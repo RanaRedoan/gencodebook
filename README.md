@@ -9,7 +9,7 @@
 To install the package in Stata, run the following command:
 
 ```stata
-net install gencodebook, from("https://raw.githubusercontent.com/RanaRedoan/genodebook/main") replace
+net install gencodebook, from("https://raw.githubusercontent.com/RanaRedoan/gencodebook/main") replace
 ```
 
 ---
@@ -67,4 +67,5 @@ This will generate a fully formatted codebook of all labeled variables in your d
 ## 👨‍💻 Author
 
 **Md. Redoan Hossain Bhuiyan**  
+
 📧 redoanhossain630@gmail.com
