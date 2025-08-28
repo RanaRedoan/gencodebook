@@ -1,0 +1,6 @@
+v 3
+d gencodebook: Generate standared codebook
+d distribution-date: 2025-08-28
+f src/gencodebook.ado
+f src/gencodebook.sthlp
+f examples/example.do
