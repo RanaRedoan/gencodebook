@@ -17,10 +17,9 @@ net install gencodebook, from("https://raw.githubusercontent.com/RanaRedoan/genc
 ## 🚀 Syntax
 
 ```stata
-gencodebook [varlist] using "filename.xlsx", replace
+gencodebook using "filename.xlsx", replace
 ```
 
-- `varlist` *(optional)*: Specify variables to include. If omitted, all labeled variables are used.
 - `using "filename.xlsx"` *(required)*: Name of the output Excel file.
 - `replace` *(optional)*: Overwrites an existing Excel file with the same name.
 
@@ -69,3 +68,4 @@ This will generate a fully formatted codebook of all labeled variables in your d
 **Md. Redoan Hossain Bhuiyan**  
 
 📧 redoanhossain630@gmail.com
+
