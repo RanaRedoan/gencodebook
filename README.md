@@ -1,4 +1,4 @@
-# 📘 codebookgen — Enhanced Codebook/Documentation Generator for Stata
+# 📘 gencodebook — Enhanced Codebook/Documentation Generator for Stata
 
 `gencodebook` is a professional tool for generating comprehensive codebooks or documentation from Stata datasets. It creates clean, well-organized Excel reports with rich metadata, helping users quickly understand the structure and content of their datasets.
 
@@ -68,4 +68,5 @@ This will generate a fully formatted codebook of all labeled variables in your d
 **Md. Redoan Hossain Bhuiyan**  
 
 📧 redoanhossain630@gmail.com
+
 
