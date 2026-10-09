@@ -1,6 +1,6 @@
-*! gencodebook v1.1 - Simplified codebook generator
+*! gencodebook v1.1.1 - Simplified codebook generator
 *! Author: Md. Redoan Hossain Bhuiyan
-*! Date: 28 August 2025
+*! Date: 10 October 2026
 
 program define gencodebook
     version 16
@@ -146,7 +146,7 @@ program define gencodebook
         * Header row formatting
         qui putexcel A1:E1, hcenter bold border(bottom, thick)
         * Data formatting
-        qui putexcel A2:E`=`row'-1', hcenter wrap
+        qui putexcel A2:E`=`row'-1', hcenter txtwrap
     }
     
     * -------------------------------------------------------------------------

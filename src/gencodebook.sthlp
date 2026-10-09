@@ -13,10 +13,9 @@ help for {bf:gencodebook}
 {title:Syntax}
 
 {p 8 17 2}
-{cmd:gencodebook} 
+{cmd:gencodebook} [{varlist}]
 {cmd:using "filename.xlsx"}
-{cmd:,} 
-{cmd:replace}
+[{cmd:,} {cmd:replace} {cmd:modify} {cmd:sheet(}{it:name}{cmd:)} {cmd:format}]
 
 {title:Description}
 
@@ -32,7 +31,21 @@ This provides quick and professional dataset documentation.
 {opt using} specifies the output Excel filename (required).
 
 {phang}
+{varlist} lists the variables to document; the default is every variable.
+
+{phang}
 {opt replace} overwrites an existing Excel file.
+
+{phang}
+{opt modify} writes into an existing workbook and keeps its other sheets;
+it cannot be combined with {opt replace}.
+
+{phang}
+{opt sheet(name)} names the worksheet; the default is {cmd:Codebook}.
+
+{phang}
+{opt format} makes the header bold and centred and centres and wraps the
+data cells.
 
 {title:Output Structure}
 
@@ -50,6 +63,7 @@ The generated codebook includes these columns:
 {title:Examples}
 
 {phang2}{cmd:. gencodebook using "Test_Codebook.xlsx", replace}{p_end}
+{phang2}{cmd:. gencodebook age income gender using "Test_Codebook.xlsx", modify sheet(Selected) format}{p_end}
 
 {title:Remarks}
 

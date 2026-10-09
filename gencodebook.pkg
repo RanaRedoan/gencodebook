@@ -1,5 +1,5 @@
 v 3
-d gencodebook: Generate standared codebook
+d gencodebook: Generate a standard codebook in Excel
 d distribution-date: 2025-08-28
 f src/gencodebook.ado
 f src/gencodebook.sthlp
